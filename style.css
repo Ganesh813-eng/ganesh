@@ -143,7 +143,7 @@ section {
   display: flex;
   flex-direction: column; 
   align-items: center;    
-  gap: 30px; /* Increased gap for better breathing room */
+  gap: 40px; /* Increased gap for better breathing room */
   max-width: 900px;
   margin: 40px auto;
 }
