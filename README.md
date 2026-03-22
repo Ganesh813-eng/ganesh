@@ -80,6 +80,10 @@
     <h3>Investment Banking Job Simulation Course </h3>
     <p>By J.P.Morgan </p>
   </div>
+  <div class="card">
+    <h3>Investment Banking Job Simulation Course </h3>
+    <p>By J.P.Morgan </p>
+  </div>
 </section>
 
 <section id="contact">
