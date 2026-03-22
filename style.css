@@ -138,31 +138,20 @@ section {
   box-shadow: 0 0 20px rgba(59,130,246,0.7);
 }
 
-/* Certification Section */
-#certifications {
+/* Certification */
+#certification {
   display: flex;
   flex-direction: column; 
   align-items: center;    
-  gap: 30px; /* This creates the vertical space between the cards */
+  gap: 30px; /* Increased gap for better breathing room */
   max-width: 900px;
-  margin: 60px auto; /* Increased top/bottom margin for better section spacing */
-  padding: 0 20px;
+  margin: 40px auto;
 }
 
-/* Fix for the card wrappers */
-#certifications > div { 
-  width: 100%; 
-  max-width: 600px; /* Adjusted for better visibility */
-  display: flex;
-  flex-direction: column;
-}
-
-/* Ensure the cards inside the divs don't bleed out */
-#certifications .card {
-  margin: 0; /* Reset margins to let the parent gap handle spacing */
-  width: 100%;
-  box-sizing: border-box;
-}
+/* Fix the card wrappers */
+#certification > div { 
+  width: 100%; /* Changed from 200% to 100% to fit the container */
+  max-width: 500px; 
 }
 /* CARD */
 .card {
@@ -234,6 +223,9 @@ section {
   }
 }
 
+/* ========================= */
+/* 🔥 FINAL MOBILE FIX */
+/* ========================= */
 
 @media (max-width: 768px) {
 
